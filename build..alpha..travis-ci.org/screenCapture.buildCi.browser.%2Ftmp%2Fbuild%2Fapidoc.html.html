@@ -1,0 +1,503 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a>office-ui-fabric-react (v2.21.0)</a>
+</h1>
+<h4>Reusable React components for building experiences for Office 365.</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.office-ui-fabric-react">module office-ui-fabric-react</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">office-ui-fabric-react.</span>BaseStore</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">office-ui-fabric-react.</span>DateMath</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">office-ui-fabric-react.</span>Route</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">office-ui-fabric-react.</span>SelectionLayout</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.office-ui-fabric-react.BaseStore">module office-ui-fabric-react.BaseStore</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.office-ui-fabric-react.BaseStore.BaseStore">
+            function <span class="apidocSignatureSpan">office-ui-fabric-react.</span>BaseStore
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.office-ui-fabric-react.DateMath">module office-ui-fabric-react.DateMath</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.office-ui-fabric-react.DateMath.addDays">
+            function <span class="apidocSignatureSpan">office-ui-fabric-react.DateMath.</span>addDays
+            <span class="apidocSignatureSpan">(date, days)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.office-ui-fabric-react.DateMath.addMonths">
+            function <span class="apidocSignatureSpan">office-ui-fabric-react.DateMath.</span>addMonths
+            <span class="apidocSignatureSpan">(date, months)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.office-ui-fabric-react.DateMath.addWeeks">
+            function <span class="apidocSignatureSpan">office-ui-fabric-react.DateMath.</span>addWeeks
+            <span class="apidocSignatureSpan">(date, weeks)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.office-ui-fabric-react.DateMath.addYears">
+            function <span class="apidocSignatureSpan">office-ui-fabric-react.DateMath.</span>addYears
+            <span class="apidocSignatureSpan">(date, years)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.office-ui-fabric-react.DateMath.compareDatePart">
+            function <span class="apidocSignatureSpan">office-ui-fabric-react.DateMath.</span>compareDatePart
+            <span class="apidocSignatureSpan">(date1, date2)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.office-ui-fabric-react.DateMath.compareDates">
+            function <span class="apidocSignatureSpan">office-ui-fabric-react.DateMath.</span>compareDates
+            <span class="apidocSignatureSpan">(date1, date2)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.office-ui-fabric-react.DateMath.getDateRangeArray">
+            function <span class="apidocSignatureSpan">office-ui-fabric-react.DateMath.</span>getDateRangeArray
+            <span class="apidocSignatureSpan">(date, dateRangeType, firstDayOfWeek)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.office-ui-fabric-react.DateMath.isInDateRangeArray">
+            function <span class="apidocSignatureSpan">office-ui-fabric-react.DateMath.</span>isInDateRangeArray
+            <span class="apidocSignatureSpan">(date, dateRange)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.office-ui-fabric-react.DateMath.setMonth">
+            function <span class="apidocSignatureSpan">office-ui-fabric-react.DateMath.</span>setMonth
+            <span class="apidocSignatureSpan">(date, month)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.office-ui-fabric-react.Route">module office-ui-fabric-react.Route</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.office-ui-fabric-react.Route.Route">
+            function <span class="apidocSignatureSpan">office-ui-fabric-react.</span>Route
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.office-ui-fabric-react.SelectionLayout">module office-ui-fabric-react.SelectionLayout</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.office-ui-fabric-react.SelectionLayout.SelectionLayout">
+            function <span class="apidocSignatureSpan">office-ui-fabric-react.</span>SelectionLayout
+            <span class="apidocSignatureSpan">(direction)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.office-ui-fabric-react" id="apidoc.module.office-ui-fabric-react">module office-ui-fabric-react</a></h1>
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.office-ui-fabric-react.BaseStore" id="apidoc.module.office-ui-fabric-react.BaseStore">module office-ui-fabric-react.BaseStore</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.office-ui-fabric-react.BaseStore.BaseStore" id="apidoc.element.office-ui-fabric-react.BaseStore.BaseStore">
+        function <span class="apidocSignatureSpan">office-ui-fabric-react.</span>BaseStore
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function BaseStore() {
+    this._callbacks = {};
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.office-ui-fabric-react.DateMath" id="apidoc.module.office-ui-fabric-react.DateMath">module office-ui-fabric-react.DateMath</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.office-ui-fabric-react.DateMath.addDays" id="apidoc.element.office-ui-fabric-react.DateMath.addDays">
+        function <span class="apidocSignatureSpan">office-ui-fabric-react.DateMath.</span>addDays
+        <span class="apidocSignatureSpan">(date, days)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function addDays(date, days) {
+    var result = new Date(date.getTime());
+    result.setDate(result.getDate() + days);
+    return result;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.office-ui-fabric-react.DateMath.addMonths" id="apidoc.element.office-ui-fabric-react.DateMath.addMonths">
+        function <span class="apidocSignatureSpan">office-ui-fabric-react.DateMath.</span>addMonths
+        <span class="apidocSignatureSpan">(date, months)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function addMonths(date, months) {
+    var result = new Date(date.getTime());
+    var newMonth = result.getMonth() + months;
+    result.setMonth(newMonth);
+    // We want to maintain the same day-of-month, but that may not be possible if the new month doesn't have enough days.
+    // Loop until we back up to a day the new month has.
+    // (Weird modulo math is due to Javascript's treatment of negative numbers in modulo)
+    if (result.getMonth() !== ((newMonth % MONTHS_IN_YEAR) + MONTHS_IN_YEAR) % MONTHS_IN_YEAR) {
+        result = addDays(result, -result.getDate());
+    }
+    return result;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.office-ui-fabric-react.DateMath.addWeeks" id="apidoc.element.office-ui-fabric-react.DateMath.addWeeks">
+        function <span class="apidocSignatureSpan">office-ui-fabric-react.DateMath.</span>addWeeks
+        <span class="apidocSignatureSpan">(date, weeks)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function addWeeks(date, weeks) {
+    return addDays(date, weeks * DAYS_IN_WEEK);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.office-ui-fabric-react.DateMath.addYears" id="apidoc.element.office-ui-fabric-react.DateMath.addYears">
+        function <span class="apidocSignatureSpan">office-ui-fabric-react.DateMath.</span>addYears
+        <span class="apidocSignatureSpan">(date, years)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function addYears(date, years) {
+    var result = new Date(date.getTime());
+    result.setFullYear(date.getFullYear() + years);
+    // We want to maintain the same day-of-month, but that may not be possible if the new month doesn't have enough days.
+    // Loop until we back up to a day the new month has.
+    // (Weird modulo math is due to Javascript's treatment of negative numbers in modulo)
+    if (result.getMonth() !== ((date.getMonth() % MONTHS_IN_YEAR) + MONTHS_IN_YEAR) % MONTHS_IN_YEAR) {
+        result = addDays(result, -result.getDate());
+    }
+    return result;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.office-ui-fabric-react.DateMath.compareDatePart" id="apidoc.element.office-ui-fabric-react.DateMath.compareDatePart">
+        function <span class="apidocSignatureSpan">office-ui-fabric-react.DateMath.</span>compareDatePart
+        <span class="apidocSignatureSpan">(date1, date2)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function compareDatePart(date1, date2) {
+    return getDatePartHashValue(date1) - getDatePartHashValue(date2);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.office-ui-fabric-react.DateMath.compareDates" id="apidoc.element.office-ui-fabric-react.DateMath.compareDates">
+        function <span class="apidocSignatureSpan">office-ui-fabric-react.DateMath.</span>compareDates
+        <span class="apidocSignatureSpan">(date1, date2)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function compareDates(date1, date2) {
+    if (date1 == null &amp;&amp; date2 == null) {
+        return true;
+    }
+    else if (date1 == null || date2 == null) {
+        return false;
+    }
+    else {
+        return (date1.getFullYear() === date2.getFullYear()
+            &amp;&amp; date1.getMonth() === date2.getMonth()
+            &amp;&amp; date1.getDate() === date2.getDate());
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.office-ui-fabric-react.DateMath.getDateRangeArray" id="apidoc.element.office-ui-fabric-react.DateMath.getDateRangeArray">
+        function <span class="apidocSignatureSpan">office-ui-fabric-react.DateMath.</span>getDateRangeArray
+        <span class="apidocSignatureSpan">(date, dateRangeType, firstDayOfWeek)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function getDateRangeArray(date, dateRangeType, firstDayOfWeek) {
+    var datesArray = new Array();
+    var startDate = null;
+    var endDate = null;
+    switch (dateRangeType) {
+        case DateValues_1.DateRangeType.Day:
+            startDate = getDatePart(date);
+            endDate = addDays(startDate, 1);
+            break;
+        case DateValues_1.DateRangeType.Week:
+            startDate = getStartDateOfWeek(getDatePart(date), firstDayOfWeek);
+            endDate = addDays(startDate, DAYS_IN_WEEK);
+            break;
+        case DateValues_1.DateRangeType.Month:
+            startDate = new Date(date.getFullYear(), date.getMonth(), 1);
+            endDate = addMonths(startDate, 1);
+            break;
+    }
+    // Populate the dates array with the dates in range
+    datesArray.push(startDate);
+    var nextDate = addDays(startDate, 1);
+    while (!compareDates(nextDate, endDate)) {
+        datesArray.push(nextDate);
+        nextDate = addDays(nextDate, 1);
+    }
+    return datesArray;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.office-ui-fabric-react.DateMath.isInDateRangeArray" id="apidoc.element.office-ui-fabric-react.DateMath.isInDateRangeArray">
+        function <span class="apidocSignatureSpan">office-ui-fabric-react.DateMath.</span>isInDateRangeArray
+        <span class="apidocSignatureSpan">(date, dateRange)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function isInDateRangeArray(date, dateRange) {
+    for (var _i = 0, dateRange_1 = dateRange; _i &lt; dateRange_1.length; _i++) {
+        var dateInRange = dateRange_1[_i];
+        if (compareDates(date, dateInRange)) {
+            return true;
+        }
+    }
+    return false;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.office-ui-fabric-react.DateMath.setMonth" id="apidoc.element.office-ui-fabric-react.DateMath.setMonth">
+        function <span class="apidocSignatureSpan">office-ui-fabric-react.DateMath.</span>setMonth
+        <span class="apidocSignatureSpan">(date, month)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function setMonth(date, month) {
+    return addMonths(date, month - date.getMonth());
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+ * @param {Date} date - The origin date
+ * @param {number} months - The number of months to offset. 'months' can be negative.
+ * @return {Date} A new Date object offset from the origin date by the given number of months
+ */
+function addMonths(date, months) {
+var result = new Date(date.getTime());
+var newMonth = result.getMonth() + months;
+result.<span class="apidocCodeKeywordSpan">setMonth</span>(newMonth);
+// We want to maintain the same day-of-month, but that may not be possible if the new month doesn't have enough days.
+// Loop until we back up to a day the new month has.
+// (Weird modulo math is due to Javascript's treatment of negative numbers in modulo)
+if (result.getMonth() !== ((newMonth % MONTHS_IN_YEAR) + MONTHS_IN_YEAR) % MONTHS_IN_YEAR) {
+    result = addDays(result, -result.getDate());
+}
+return result;
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.office-ui-fabric-react.Route" id="apidoc.module.office-ui-fabric-react.Route">module office-ui-fabric-react.Route</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.office-ui-fabric-react.Route.Route" id="apidoc.element.office-ui-fabric-react.Route.Route">
+        function <span class="apidocSignatureSpan">office-ui-fabric-react.</span>Route
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Route() {
+    return _super !== null &amp;&amp; _super.apply(this, arguments) || this;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.office-ui-fabric-react.SelectionLayout" id="apidoc.module.office-ui-fabric-react.SelectionLayout">module office-ui-fabric-react.SelectionLayout</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.office-ui-fabric-react.SelectionLayout.SelectionLayout" id="apidoc.element.office-ui-fabric-react.SelectionLayout.SelectionLayout">
+        function <span class="apidocSignatureSpan">office-ui-fabric-react.</span>SelectionLayout
+        <span class="apidocSignatureSpan">(direction)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function SelectionLayout(direction) {
+    this._direction = direction;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
